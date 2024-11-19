@@ -23,6 +23,17 @@ module.exports = {
       lineHeight: {
         xl: '33px',
         xxl:'91px',
+      },
+      screens: {
+        lg: '1025px',
+        md:'770px',
+      },
+      maxWidth: {
+        xxl:'1200px',
+      },
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+        courier: ['Courier Prime', 'sans-serif'],
       }
     },
   },
