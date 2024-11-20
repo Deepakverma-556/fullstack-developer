@@ -18,11 +18,24 @@ module.exports = {
       fontSize:{
         xsm: '26px',
         medium: '33px',
-        xxl:'50px',
+        xxxl: '50px',
+        xxl:'49px'
       },
       lineHeight: {
         xl: '33px',
         xxl:'91px',
+      },
+      screens: {
+        lg: '1025px',
+        md: '770px',
+        sm: '450px',
+      },
+      maxWidth: {
+        xxl: '1200px',
+      },
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+        courier: ['Courier-prime', 'sans-serif'],
       }
     },
   },
