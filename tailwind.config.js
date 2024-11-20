@@ -18,7 +18,12 @@ module.exports = {
       fontSize:{
         xsm: '26px',
         medium: '33px',
-        xxl:'50px',
+        md:'39px',
+        xxl:'45px',
+        xxxl: '50px',
+        xxxxl:'54px',
+        large: '74px',
+        extralarge:'82px'
       },
       lineHeight: {
         xl: '33px',

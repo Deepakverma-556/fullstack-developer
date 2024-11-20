@@ -1,8 +1,22 @@
 "use client";
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 const Navbar = () => {
   const [open, setOpen] = useState();
+  useEffect(() => {
+    const handleOverflow = () => {
+      if (open && window.innerWidth < 850) {
+        document.body.classList.add("overflow-hidden");
+      } else {
+        document.body.classList.remove("overflow-hidden");
+      }
+    };
+    handleOverflow();
+    window.addEventListener("resize", handleOverflow);
+    return () => {
+      window.removeEventListener("resize", handleOverflow);
+    };
+  }, [open]);
   return (
     <div>
       <div className='max-w-xxl px-4 mx-auto font-roboto'>
