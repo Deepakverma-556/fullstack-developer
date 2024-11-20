@@ -39,7 +39,6 @@ const Faq = () => {
                     {accordionData.map((item, index) => (
                         <div className="border-b border-green py-2 mt-5" key={index}>
                             <div className="flex justify-between items-center cursor-pointer" onClick={() => toggleAccordion(index)}>
-
                                 <p className='text-white text-[35px] max-lg:text-3xl max-md:text-2xl max-sm:text-base font-bold'>{item.title}</p>
                                 <div className={`transition-all duration-300 ${activeIndex === index ? 'rotate-180' : 'rotate-0'}`}>
                                     <svg className='max-md:w-[25px]' width="33" height="19" viewBox="0 0 33 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -49,7 +48,6 @@ const Faq = () => {
                             </div>
                             <div className={`transition-all duration-300 ease-in-out overflow-hidden ${activeIndex === index ? 'max-h-[1000px]' : 'max-h-0'}`}>
                                 {activeIndex === index && (
-
                                     <p className="text-green py-2 text-2xl font-normal max-md:text-[18px] max-sm:text-sm pr-6">{item.content}</p>
                                 )}
                             </div>
