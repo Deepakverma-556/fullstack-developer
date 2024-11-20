@@ -5,7 +5,7 @@ const Navbar = () => {
   const [open, setOpen] = useState();
   useEffect(() => {
     const handleOverflow = () => {
-      if (open && window.innerWidth < 850) {
+      if (open && window.innerWidth < 1025) {
         document.body.classList.add("overflow-hidden");
       } else {
         document.body.classList.remove("overflow-hidden");
@@ -44,10 +44,15 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <button className="bg-gradient-to-b from-green to-white rounded-xl p-1">
+              <button className="bg-gradient-to-b from-green to-white rounded-xl p-1 overflow-hidden relative group">
                 <span className="flex gap-1 items-center w-full bg-[#2c2c2c] text-white py-2 px-4 rounded-xl font-bold font-roboto text-xsm max-[1200px]:text-xl">
                   <svg width="36" height="20" viewBox="0 0 36 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M33 0.25H13.5C11.85 0.25 10.5 1.6 10.5 3.25V16.75C10.5 18.415 11.85 19.75 13.5 19.75H33C34.665 19.75 36 18.415 36 16.75V3.25C36 1.6 34.665 0.25 33 0.25ZM33 16.75H13.5V5.755L23.25 10.75L33 5.755V16.75ZM23.25 8.215L13.5 3.25H33L23.25 8.215ZM7.5 16.75C7.5 17.005 7.545 17.245 7.575 17.5H1.5C0.672 17.5 0 16.825 0 16C0 15.175 0.672 14.5 1.5 14.5H7.5V16.75ZM4.5 2.5H7.575C7.545 2.755 7.5 2.995 7.5 3.25V5.5H4.5C3.675 5.5 3 4.825 3 4C3 3.175 3.675 2.5 4.5 2.5ZM1.5 10C1.5 9.175 2.175 8.5 3 8.5H7.5V11.5H3C2.175 11.5 1.5 10.825 1.5 10Z" fill="white" />
+                  </svg> Contact Me
+                </span>
+                <span className="flex gap-1 items-center w-full bg-gradient-to-b from-green to-white text-black py-2 px-4 rounded-lg font-bold font-roboto text-xsm max-[1200px]:text-xl absolute -top-full transition-all duration-500 group-hover:top-1">
+                  <svg width="36" height="20" viewBox="0 0 36 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M33 0.25H13.5C11.85 0.25 10.5 1.6 10.5 3.25V16.75C10.5 18.415 11.85 19.75 13.5 19.75H33C34.665 19.75 36 18.415 36 16.75V3.25C36 1.6 34.665 0.25 33 0.25ZM33 16.75H13.5V5.755L23.25 10.75L33 5.755V16.75ZM23.25 8.215L13.5 3.25H33L23.25 8.215ZM7.5 16.75C7.5 17.005 7.545 17.245 7.575 17.5H1.5C0.672 17.5 0 16.825 0 16C0 15.175 0.672 14.5 1.5 14.5H7.5V16.75ZM4.5 2.5H7.575C7.545 2.755 7.5 2.995 7.5 3.25V5.5H4.5C3.675 5.5 3 4.825 3 4C3 3.175 3.675 2.5 4.5 2.5ZM1.5 10C1.5 9.175 2.175 8.5 3 8.5H7.5V11.5H3C2.175 11.5 1.5 10.825 1.5 10Z" fill="black" />
                   </svg> Contact Me
                 </span>
               </button>
@@ -68,7 +73,7 @@ const Navbar = () => {
               <li><a href="#" onClick={() => setOpen(false)} className='font-bold font-roboto text-xsm text-white transition-all duration-300 hover:text-green max-[1200px]:text-xl'>Skills</a></li>
               <li><a href="#" onClick={() => setOpen(false)} className='font-bold font-roboto text-xsm text-white transition-all duration-300 hover:text-green max-[1200px]:text-xl'>Projects</a></li>
               <li>
-                <a onClick={() => setOpen(false)}  href="https://in.linkedin.com/" target='blank' className='flex items-center gap-1 font-bold font-roboto text-xsm text-white transition-all duration-300 hover:text-green group/link max-[1200px]:text-xl'>
+                <a onClick={() => setOpen(false)} href="https://in.linkedin.com/" target='blank' className='flex items-center gap-1 font-bold font-roboto text-xsm text-white transition-all duration-300 hover:text-green group/link max-[1200px]:text-xl'>
                   <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path className='transition-all duration-300 group-hover/link:fill-green' d="M22.9167 0.25C23.6681 0.25 24.3888 0.548511 24.9201 1.07986C25.4515 1.61122 25.75 2.33189 25.75 3.08333V22.9167C25.75 23.6681 25.4515 24.3888 24.9201 24.9201C24.3888 25.4515 23.6681 25.75 22.9167 25.75H3.08333C2.33189 25.75 1.61122 25.4515 1.07986 24.9201C0.548511 24.3888 0.25 23.6681 0.25 22.9167V3.08333C0.25 2.33189 0.548511 1.61122 1.07986 1.07986C1.61122 0.548511 2.33189 0.25 3.08333 0.25H22.9167ZM22.2083 22.2083V14.7C22.2083 13.4751 21.7218 12.3005 20.8557 11.4343C19.9895 10.5682 18.8149 10.0817 17.59 10.0817C16.3858 10.0817 14.9833 10.8183 14.3033 11.9233V10.3508H10.3508V22.2083H14.3033V15.2242C14.3033 14.1333 15.1817 13.2408 16.2725 13.2408C16.7985 13.2408 17.303 13.4498 17.6749 13.8217C18.0469 14.1937 18.2558 14.6982 18.2558 15.2242V22.2083H22.2083ZM5.74667 8.12667C6.37788 8.12667 6.98324 7.87592 7.42958 7.42958C7.87592 6.98324 8.12667 6.37788 8.12667 5.74667C8.12667 4.42917 7.06417 3.3525 5.74667 3.3525C5.11169 3.3525 4.50273 3.60474 4.05374 4.05374C3.60474 4.50273 3.3525 5.11169 3.3525 5.74667C3.3525 7.06417 4.42917 8.12667 5.74667 8.12667ZM7.71583 22.2083V10.3508H3.79167V22.2083H7.71583Z" fill="white" />
                   </svg> Linkedin
@@ -93,7 +98,7 @@ const Navbar = () => {
               </li>
             </ul>
             <ul className='flex items-center gap-6'>
-              
+
             </ul>
           </div>
         </div>
