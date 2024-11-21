@@ -18,14 +18,14 @@ const Hero = () => {
     }
   },);
   return (
-    <div className='pt-48 pb-56 max-lg:py-40 max-md:py-24 max-sm:py-10'>
+    <div className='py-28 max-lg:py-32 max-md:py-24 max-sm:py-10'>
       <div className='max-w-xxl mx-auto px-4 font-roboto'>
         <div className='flex flex-wrap -mx-3 items-center'>
           <div className='w-full sm:w-7/12 px-3'>
             <div>
               <p className='font-bold text-md text-light max-lg:text-4xl max-md:text-3xl max-sm:text-2xl'>Hello, i am</p>
-              <h2 className='typewriter font-bold text-large max-lg:text-7xl max-md:text-6xl max-sm:text-xxl text-green sm:max-w-72 leading-xxl pt-6 pb-16 max-md:pt-5 max-md:pb-10 max-sm:pt-2 max-sm:pb-5'>＜ John Doe /＞</h2>
-              <p className='font-bold text-xxxxl max-lg:text-5xl max-md:text-4xl max-sm:text-3xl text-light pb-10 max-md:pb-7 max-sm:pb-4'>Fullstack Developer</p>
+              <h2 className='typewriter font-bold text-large max-lg:text-7xl max-md:text-6xl max-sm:text-xxl text-green sm:max-w-72 leading-xxl pt-6 pb-8 max-md:pt-5 max-md:pb-7 max-sm:pt-2 max-sm:pb-5'>＜ John Doe /＞</h2>
+              <p className='font-bold text-xxxxl max-lg:text-5xl max-md:text-4xl max-sm:text-3xl text-light pb-6 max-md:pb-5 max-sm:pb-4'>Fullstack Developer</p>
               <div className='flex items-center justify-between max-lg:flex-wrap'>
                 <div className='flex items-center gap-1 max-lg:gap-3'>
                   <p className='font-bold text-extralarge max-lg:text-7xl max-md:text-6xl max-sm:text-5xl text-medium-gray'>{count}</p>

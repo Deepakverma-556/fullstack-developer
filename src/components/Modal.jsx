@@ -14,12 +14,10 @@ const Modal = ({ isOpen, closeModal }) => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        setError(false);
         setFormValues({
             name: '',
             email: ''
         });
-        setError(true);
         closeModal();
     };
 

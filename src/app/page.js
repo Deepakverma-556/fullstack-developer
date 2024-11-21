@@ -8,7 +8,6 @@ import Footer from "@/components/Footer";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 
-
 export default function Home() {
   useEffect(() => {
     const lenis = new Lenis({
@@ -31,7 +30,7 @@ export default function Home() {
       <Projects/>
       <Faq />
       <Footer />
-      <Bottom/>
+      <Bottom />
     </>
   );
 }

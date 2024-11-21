@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <div className='bg-gradient-to-r from-[#252525] to-[#474747] font-roboto pt-16 pb-16 max-lg:pt-14 max-md:pt-10 max-lg:pb-14 max-md:pb-10'>
             <div className='max-w-xxl mx-auto px-4'>
-                <a href="#"><h2 className='text-green text-xxxl font-bold max-lg:text-4xl max-sm:text-3xl'>JOHN<span className='text-white'>DOE</span></h2></a>
+                <a href="#"><h2 className='text-green leading-none text-xxxl font-bold max-lg:text-4xl max-sm:text-3xl'>JOHN<span className='text-white'>DOE</span></h2></a>
                 <div className='flex justify-between items-start max-lg:flex-col '>
                     <div>
                         <p className='text-white font-normal text-xl leading-6 max-w-[453px] max-lg:max-w-none pt-4 max-sm:text-base'>Eum earum possimus qui sunt possimus aut tempora aliquid ut veritatis architecto et voluptate enim id sint possimus. Aut nobis est fuga officia et nemo nulla et quod quia ex dolor placeat rem repudiandae voluptas.</p>
