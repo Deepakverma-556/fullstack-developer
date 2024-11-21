@@ -1,11 +1,13 @@
 "use client"
-import { useEffect } from "react";
+import { useEffect } from "react"
+import Main from "@/components/Main";
+import Lenis from "lenis";
+import Bottom from "@/components/Bottom";
 import Faq from "@/components/Faq";
 import Footer from "@/components/Footer";
-import Main from "@/components/Main";
-import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
-import Lenis from "lenis";
+import Projects from "@/components/Projects";
+
 
 export default function Home() {
   useEffect(() => {
@@ -26,9 +28,10 @@ export default function Home() {
     <>
       <Main />
       <Skills />
-      <Projects />
+      <Projects/>
       <Faq />
       <Footer />
+      <Bottom/>
     </>
   );
 }

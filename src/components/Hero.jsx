@@ -9,12 +9,12 @@ const Hero = () => {
     if (count < 5) {
       const timer = setTimeout(() => {
         setCount(count + 1);
-      }, 500);
+      }, 70);
     }
     if (increment < 13) {
       const timer = setTimeout(() => {
         setIncrement(increment + 1);
-      }, 500);
+      }, 50);
     }
   },);
   return (

@@ -1,25 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* .typewriter{
-  overflow: hidden; 
-  border-right: .15em solid orange; 
-  animation: 
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+
+.modal-enter {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.modal-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.modal-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.modal-exit-active {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s, transform 0.5s;
 }
 
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-} */
