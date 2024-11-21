@@ -25,5 +25,8 @@
     transform: translateY(-20px);
     transition: opacity 0.5s, transform 0.5s;
 }
-
+html,
+body{
+  scroll-behavior: smooth;
+}
 

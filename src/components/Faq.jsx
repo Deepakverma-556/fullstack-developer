@@ -34,7 +34,7 @@ const Faq = () => {
     return (
         <div className='bg-dark pt-16 pb-16 max-lg:pt-14 max-md:pt-10 max-lg:pb-14 max-md:pb-10 font-roboto'>
             <div className='max-w-xxl mx-auto px-4'>
-                <h2 className='text-green text-center text-xxxl font-bold font-roboto max-lg:text-4xl max-sm:text-3xl'>FAQs<span className='text-white'>( )</span></h2>
+                <h2 className='text-green text-xxxl font-bold font-roboto max-lg:text-4xl max-sm:text-3xl overflow-hidden border-r-4 border-black whitespace-nowrap animate-typewriter faq'>FAQs<span className='text-white'>( )</span></h2>
                 <div className="accordion pt-1">
                     {accordionData.map((item, index) => (
                         <div className="border-b border-green py-2 mt-5" key={index}>

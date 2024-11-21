@@ -23,9 +23,9 @@ const Navbar = () => {
         <div className='flex items-center justify-between py-6 max-lg:py-5 max-md:py-4'>
           <a href="#" className='font-bold text-xxl font-roboto text-green max-[1200px]:text-5xl max-sm:text-4xl'>JOHN<span className='text-white'>DOE</span></a>
           <ul className='flex items-center gap-6 max-lg:hidden'>
-            <li><a href="#" className='font-bold font-roboto text-xsm text-white transition-all duration-300 hover:text-green max-[1200px]:text-xl'>About</a></li>
-            <li><a href="#" className='font-bold font-roboto text-xsm text-white transition-all duration-300 hover:text-green max-[1200px]:text-xl'>Skills</a></li>
-            <li><a href="#" className='font-bold font-roboto text-xsm text-white transition-all duration-300 hover:text-green max-[1200px]:text-xl'>Projects</a></li>
+            <li><a href="#about" className='font-bold font-roboto text-xsm text-white transition-all duration-300 hover:text-green max-[1200px]:text-xl'>About</a></li>
+            <li><a href="#skills" className='font-bold font-roboto text-xsm text-white transition-all duration-300 hover:text-green max-[1200px]:text-xl'>Skills</a></li>
+            <li><a href="#projects" className='font-bold font-roboto text-xsm text-white transition-all duration-300 hover:text-green max-[1200px]:text-xl'>Projects</a></li>
           </ul>
           <ul className='flex items-center gap-6 max-lg:hidden'>
             <li>
@@ -69,9 +69,9 @@ const Navbar = () => {
               }`}
           >
             <ul className='flex flex-col items-center gap-6'>
-              <li><a href="#" onClick={() => setOpen(false)} className='font-bold font-roboto text-xsm text-white transition-all duration-300 hover:text-green max-[1200px]:text-xl'>About</a></li>
-              <li><a href="#" onClick={() => setOpen(false)} className='font-bold font-roboto text-xsm text-white transition-all duration-300 hover:text-green max-[1200px]:text-xl'>Skills</a></li>
-              <li><a href="#" onClick={() => setOpen(false)} className='font-bold font-roboto text-xsm text-white transition-all duration-300 hover:text-green max-[1200px]:text-xl'>Projects</a></li>
+              <li><a href="#about" onClick={() => setOpen(false)} className='font-bold font-roboto text-xsm text-white transition-all duration-300 hover:text-green max-[1200px]:text-xl'>About</a></li>
+              <li><a href="#skills" onClick={() => setOpen(false)} className='font-bold font-roboto text-xsm text-white transition-all duration-300 hover:text-green max-[1200px]:text-xl'>Skills</a></li>
+              <li><a href="#projects" onClick={() => setOpen(false)} className='font-bold font-roboto text-xsm text-white transition-all duration-300 hover:text-green max-[1200px]:text-xl'>Projects</a></li>
               <li>
                 <a onClick={() => setOpen(false)} href="https://in.linkedin.com/" target='blank' className='flex items-center gap-1 font-bold font-roboto text-xsm text-white transition-all duration-300 hover:text-green group/link max-[1200px]:text-xl'>
                   <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">

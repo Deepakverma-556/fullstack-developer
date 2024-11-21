@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div className='pb-56 max-lg:pb-40 max-md:pb-24 max-sm:pb-10'>
+    <div id='about' className='pb-56 max-lg:pb-40 max-md:pb-24 max-sm:pb-10'>
       <div className='max-w-xxl px-4 mx-auto'>
         <div className='flex items-center flex-wrap -mx-3 justify-between'>
           <div className='w-full sm:w-6/12 px-3'>

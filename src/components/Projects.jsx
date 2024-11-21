@@ -36,7 +36,7 @@ const Projects = () => {
   };
 
   return (
-    <div className='py-16 max-lg:py-14 max-md:py-10 bg-gradient-to-r from-[#252525] to-[#474747]'>
+    <div id='projects' className='py-16 max-lg:py-14 max-md:py-10 bg-gradient-to-r from-[#252525] to-[#474747]'>
       <div className='max-w-xxl mx-auto px-4'>
         <h2 className='font-roboto font-bold text-xxxl max-lg:text-4xl text-green max-sm:text-3xl mb-12 max-lg:mb-10 max-md:mb-8 max-sm:mb-6 overflow-hidden border-r-4 border-black whitespace-nowrap animate-typewriter'>
           projects<span className='text-light'>( )</span>
