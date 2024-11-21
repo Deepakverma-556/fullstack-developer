@@ -29,10 +29,15 @@ const Footer = () => {
                             <p className='font-bold text-white text-2xl max-sm:text-base group-hover:text-green transtation-all duration-300'>Github</p>
                         </a>
                         <div>
-                            <button onClick={openModal} className="bg-gradient-to-b from-green to-white rounded-xl p-[5px]">
+                            <button onClick={openModal} className="bg-gradient-to-b from-green to-white rounded-xl p-[5px] overflow-hidden relative group">
                                 <span className="flex gap-2 items-center  bg-[#434343] max-xsm:bg-[#323232] text-white py-3 px-5 max-sm:px-2 max-sm:py-2 max-sm:text-base rounded-xl font-bold text-xl">
                                     <svg width="36" height="20" viewBox="0 0 36 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M33 0.25H13.5C11.85 0.25 10.5 1.6 10.5 3.25V16.75C10.5 18.415 11.85 19.75 13.5 19.75H33C34.665 19.75 36 18.415 36 16.75V3.25C36 1.6 34.665 0.25 33 0.25ZM33 16.75H13.5V5.755L23.25 10.75L33 5.755V16.75ZM23.25 8.215L13.5 3.25H33L23.25 8.215ZM7.5 16.75C7.5 17.005 7.545 17.245 7.575 17.5H1.5C0.672 17.5 0 16.825 0 16C0 15.175 0.672 14.5 1.5 14.5H7.5V16.75ZM4.5 2.5H7.575C7.545 2.755 7.5 2.995 7.5 3.25V5.5H4.5C3.675 5.5 3 4.825 3 4C3 3.175 3.675 2.5 4.5 2.5ZM1.5 10C1.5 9.175 2.175 8.5 3 8.5H7.5V11.5H3C2.175 11.5 1.5 10.825 1.5 10Z" fill="white" />
+                                    </svg> Contact Me
+                                </span>
+                                <span className="flex gap-2 items-center  bg-gradient-to-b from-green to-white text-black py-3 px-5 max-sm:px-2 max-sm:py-2 max-sm:text-base rounded-lg font-bold text-xl absolute -top-full transition-all duration-500 group-hover:top-[5px]">
+                                    <svg width="36" height="20" viewBox="0 0 36 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M33 0.25H13.5C11.85 0.25 10.5 1.6 10.5 3.25V16.75C10.5 18.415 11.85 19.75 13.5 19.75H33C34.665 19.75 36 18.415 36 16.75V3.25C36 1.6 34.665 0.25 33 0.25ZM33 16.75H13.5V5.755L23.25 10.75L33 5.755V16.75ZM23.25 8.215L13.5 3.25H33L23.25 8.215ZM7.5 16.75C7.5 17.005 7.545 17.245 7.575 17.5H1.5C0.672 17.5 0 16.825 0 16C0 15.175 0.672 14.5 1.5 14.5H7.5V16.75ZM4.5 2.5H7.575C7.545 2.755 7.5 2.995 7.5 3.25V5.5H4.5C3.675 5.5 3 4.825 3 4C3 3.175 3.675 2.5 4.5 2.5ZM1.5 10C1.5 9.175 2.175 8.5 3 8.5H7.5V11.5H3C2.175 11.5 1.5 10.825 1.5 10Z" fill="black" />
                                     </svg> Contact Me
                                 </span>
                             </button>

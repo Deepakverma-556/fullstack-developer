@@ -39,7 +39,7 @@ module.exports = {
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
-        courier: ['Courier Prime', 'sans-serif'],
+        courier: ['"Courier Prime"', 'monospace'],
       },
       animation: {
         typewriter: 'typewriter 2s steps(20) 1 normal both, blinkTextCursor 500ms steps(10) infinite normal',
