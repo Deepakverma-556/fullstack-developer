@@ -35,10 +35,10 @@ const Faq = () => {
         <div className='bg-dark pt-16 pb-16 max-lg:pt-14 max-md:pt-10 max-lg:pb-14 max-md:pb-10 font-roboto'>
             <div className='max-w-xxl mx-auto px-4'>
                 <h2 className='text-green text-xxxl font-bold font-roboto max-lg:text-4xl max-sm:text-3xl overflow-hidden border-r-4 border-black whitespace-nowrap animate-typewriter faq'>FAQs<span className='text-white'>( )</span></h2>
-                <div className="accordion pt-1">
+                <div className="accordion pt-5 max-sm:pt-1">
                     {accordionData.map((item, index) => (
                         <div className="border-b border-green py-2 mt-5" key={index}>
-                            <div className="flex justify-between items-center cursor-pointer" onClick={() => toggleAccordion(index)}>
+                            <div className="flex justify-between items-center cursor-pointer transition-all duration-300" onClick={() => toggleAccordion(index)}>
                                 <p className='text-white text-[35px] max-lg:text-3xl max-md:text-2xl max-sm:text-base font-bold'>{item.title}</p>
                                 <div className={`transition-all duration-300 ${activeIndex === index ? 'rotate-180' : 'rotate-0'}`}>
                                     <svg className='max-md:w-[25px]' width="33" height="19" viewBox="0 0 33 19" fill="none" xmlns="http://www.w3.org/2000/svg">
