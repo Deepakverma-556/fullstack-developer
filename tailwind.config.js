@@ -13,21 +13,21 @@ module.exports = {
         light: '#e0e0e0',
         'dark-gray': '#828282',
         'light-gray': '#f2f2f2',
-        'medium-gray':'#4f4f4f',
+        'medium-gray': '#4f4f4f',
       },
-      fontSize:{
+      fontSize: {
         xsm: '25px',
         medium: '32px',
-        md:'39px',
-        xxl:'40px',
+        md: '39px',
+        xxl: '40px',
         xxxl: '45px',
-        xxxxl:'50px',
+        xxxxl: '50px',
         large: '70px',
-        extralarge:'74px',
+        extralarge: '74px',
       },
       lineHeight: {
         xl: '33px',
-        xxl:'91px',
+        xxl: '91px',
       },
       screens: {
         lg: '1025px',
@@ -35,7 +35,7 @@ module.exports = {
         xsm: '435px',
       },
       maxWidth: {
-        xxl:'1200px',
+        xxl: '1200px',
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
@@ -45,14 +45,30 @@ module.exports = {
         typewriter: 'typewriter 2s steps(20) 1 normal both, blinkTextCursor 500ms steps(10) infinite normal',
         type: 'type 2s steps(20) 1 normal both, blinkTextCursor 500ms steps(10) infinite normal',
         skills: 'skills 2s steps(20) 1 normal both, blinkTextCursor 500ms steps(10) infinite normal',
-        faq: 'faq 2s steps(20) 1 normal both, blinkTextCursor 500ms steps(10) infinite normal',
+        faq: 'faq 2s steps(20) 1 normal both, blinkTextCursor 500ms steps(1) infinite normal',
       },
       keyframes: {
-        typewriter: { '0%': { width: '0%' }, '100%': { width: '25%' }, },
-        type: { '0%': { width: '0%' }, '100%': { width: '70%' },},
-        skills: { '0%': { width: '0%' }, '100%': { width: '70%' }, },
-        faq: { '0%': { width: '50%' }, '100%': { width: '100%' }, },
-        blinkTextCursor: { '0%': { borderRightColor: 'transparent' }, '50%': { borderRightColor: '#70ff00' }, '100%': { borderRightColor: 'transparent' }, },
+        typewriter: {
+          '0%': { width: '0ch' },
+          '100%': { width: '9ch' },
+        },
+        type: {
+          '0%': { width: '0ch' },
+          '100%': { width: '9.5ch' },
+        },
+        skills: {
+          '0%': { width: '0ch' },
+          '100%': { width: '10ch' },
+        },
+        faq: {
+          '0%': { width: '0ch' },
+          '100%': { width: '9ch' },
+        },
+        blinkTextCursor: {
+          '0%': { borderRightColor: 'transparent' },
+          '50%': { borderRightColor: '#70ff00' },
+          '100%': { borderRightColor: 'transparent' },
+        },
       },
     },
   },
