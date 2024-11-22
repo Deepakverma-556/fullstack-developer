@@ -8,7 +8,7 @@ const Footer = () => {
     const closeModal = () => setIsModalOpen(false);
 
     return (
-        <div className='bg-gradient-to-r from-[#252525] to-[#474747] font-roboto pt-16 pb-16 max-lg:pt-14 max-md:pt-10 max-lg:pb-14 max-md:pb-10'>
+        <div className='bg-gradient-to-r from-[#252525] to-[#474747] font-roboto py-20 max-lg:py-14 max-md:py-10'>
             <div className='max-w-xxl mx-auto px-4'>
                 <a href="#"><h2 className='text-green leading-none text-xxxl font-bold max-lg:text-4xl max-sm:text-3xl'>JOHN<span className='text-white'>DOE</span></h2></a>
                 <div className='flex justify-between items-start max-lg:flex-col '>

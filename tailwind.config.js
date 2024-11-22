@@ -41,35 +41,35 @@ module.exports = {
         roboto: ['Roboto', 'sans-serif'],
         courier: ['"Courier Prime"', 'monospace'],
       },
-      animation: {
-        projects: 'projects 2s steps(20) 1 normal both, blinkTextCursor 500ms steps(10) infinite normal',
-        about: 'about 2s steps(20) 1 normal both, blinkTextCursor 500ms steps(10) infinite normal',
-        skills: 'skills 2s steps(20) 1 normal both, blinkTextCursor 500ms steps(10) infinite normal',
-        faq: 'faq 2s steps(20) 1 normal both, blinkTextCursor 500ms steps(1) infinite normal',
-      },
-      keyframes: {
-        projects: {
-          '0%': { width: '0ch' },
-          '100%': { width: '9ch' },
-        },
-        about: {
-          '0%': { width: '0ch' },
-          '100%': { width: '9.5ch' },
-        },
-        skills: {
-          '0%': { width: '0ch' },
-          '100%': { width: '7ch' },
-        },
-        faq: {
-          '0%': { width: '0ch' },
-          '100%': { width: '7ch' },
-        },
-        blinkTextCursor: {
-          '0%': { borderRightColor: 'transparent' },
-          '50%': { borderRightColor: '#70ff00' },
-          '100%': { borderRightColor: 'transparent' },
-        },
-      },
+      // animation: {
+      //   projects: 'projects 2s steps(20) 1 normal both, blinkTextCursor 500ms steps(10) infinite normal',
+      //   about: 'about 2s steps(20) 1 normal both, blinkTextCursor 500ms steps(10) infinite normal',
+      //   skills: 'skills 2s steps(20) 1 normal both, blinkTextCursor 500ms steps(10) infinite normal',
+      //   faq: 'faq 2s steps(20) 1 normal both, blinkTextCursor 500ms steps(1) infinite normal',
+      // },
+      // keyframes: {
+      //   projects: {
+      //     '0%': { width: '0ch' },
+      //     '100%': { width: '9ch' },
+      //   },
+      //   about: {
+      //     '0%': { width: '0ch' },
+      //     '100%': { width: '9.5ch' },
+      //   },
+      //   skills: {
+      //     '0%': { width: '0ch' },
+      //     '100%': { width: '7ch' },
+      //   },
+      //   faq: {
+      //     '0%': { width: '0ch' },
+      //     '100%': { width: '7ch' },
+      //   },
+      //   blinkTextCursor: {
+      //     '0%': { borderRightColor: 'transparent' },
+      //     '50%': { borderRightColor: '#70ff00' },
+      //     '100%': { borderRightColor: 'transparent' },
+      //   },
+      // },
     },
   },
   plugins: [],

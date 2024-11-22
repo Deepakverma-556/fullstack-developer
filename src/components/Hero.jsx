@@ -23,12 +23,12 @@ const Hero = () => {
         <div className='flex flex-wrap -mx-3 items-center'>
           <div className='w-full sm:w-7/12 px-3'>
             <div>
-              <p className='font-bold text-md text-light max-lg:text-4xl max-md:text-3xl max-sm:text-2xl'>Hello, i am</p>
-              <h2 className='typewriter font-bold text-large max-lg:text-7xl max-md:text-6xl max-sm:text-xxl text-green sm:max-w-72 leading-xxl pt-6 pb-8 max-md:pt-5 max-md:pb-7 max-sm:pt-2 max-sm:pb-5'>＜ John Doe /＞</h2>
+              <p className='font-bold text-md text-light max-lg:text-4xl max-md:text-3xl max-sm:text-2xl'>Hello, I am</p>
+              <h2 className='typewriter font-bold text-large max-lg:text-7xl max-md:text-6xl max-sm:text-xxl text-green sm:max-w-72 leading-xxl pt-6 pb-8 max-md:pt-5 max-md:pb-7 max-sm:pt-2 max-sm:pb-5'>＜John Doe /＞</h2>
               <p className='font-bold text-xxxxl max-lg:text-5xl max-md:text-4xl max-sm:text-3xl text-light pb-6 max-md:pb-5 max-sm:pb-4'>Fullstack Developer</p>
               <div className='flex items-center justify-between max-lg:flex-wrap'>
                 <div className='flex items-center gap-1 max-lg:gap-3'>
-                  <p className='font-bold text-extralarge max-lg:text-7xl max-md:text-6xl max-sm:text-5xl text-medium-gray'>{count}</p>
+                  <p className='font-bold text-extralarge max-lg:text-7xl max-md:text-6xl max-sm:text-5xl text-medium-gray max-lg:w-20 max-md:w-16 max-sm:w-[53px]'>{count}</p>
                   <p className='font-bold text-xsm max-lg:text-2xl max-md:text-xl max-sm:text-base leading-xl text-dark-gray'>YEARS OF EXPERIENCE</p>
                 </div>
                 <div className='flex items-center gap-1 max-lg:gap-3'>
