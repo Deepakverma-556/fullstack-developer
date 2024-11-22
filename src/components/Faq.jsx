@@ -10,23 +10,28 @@ const Faq = () => {
 
     const accordionData = [
         {
-            title: 'Q1 What anyone can ask regarding the work?',
+            no: 'Q1',
+            title: 'What anyone can ask regarding the work?',
             content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
         },
         {
-            title: 'Q2 What anyone can ask regarding the work?',
+            no: 'Q2',
+            title: 'What anyone can ask regarding the work?',
             content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
         },
         {
-            title: 'Q3 What anyone can ask regarding the work?',
+            no: 'Q3',
+            title: 'What anyone can ask regarding the work?',
             content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
         },
         {
-            title: 'Q4 What anyone can ask regarding the work?',
+            no: 'Q4',
+            title: 'What anyone can ask regarding the work?',
             content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
         },
         {
-            title: 'Q5 What anyone can ask regarding the work?',
+            no: 'Q5',
+            title: 'What anyone can ask regarding the work?',
             content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
         },
     ];
@@ -34,7 +39,7 @@ const Faq = () => {
     return (
         <div className='bg-dark pt-16 pb-16 max-lg:pt-14 max-md:pt-10 max-lg:pb-14 max-md:pb-10 font-roboto'>
             <div className='max-w-xxl mx-auto px-4'>
-                <h2 className='text-green leading-none text-xxxl font-bold font-roboto max-lg:text-4xl max-sm:text-3xl overflow-hidden border-r-4 border-black whitespace-nowrap animate-typewriter faq'>FAQs<span className='text-white'>( )</span></h2>
+                <h2 className='text-green leading-none text-xxxl font-bold font-roboto max-lg:text-4xl max-sm:text-3xl overflow-hidden border-r-4 border-black whitespace-nowrap animate-faq'>FAQs<span className='text-white'>( )</span></h2>
                 <div className="accordion pt-5 max-sm:pt-1">
                     {accordionData.map((item, index) => (
                         <div className="border-b border-green py-2 mt-5 max-sm:mt-2" key={index}>

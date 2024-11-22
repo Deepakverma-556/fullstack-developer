@@ -7,7 +7,7 @@ const AboutMe = () => {
         <div className='flex items-center flex-wrap -mx-3 justify-between'>
           <div className='w-full sm:w-6/12 px-3'>
             <div>
-              <h2 className='font-roboto font-bold text-xxxl max-lg:text-4xl text-green mb-9 max-lg:mb-7 max-md:mb-5 max-sm:mb-1 max-sm:text-3xl overflow-hidden border-r-4 border-black whitespace-nowrap animate-type'>aboutMe<span className='text-light'>( )</span></h2>
+              <h2 className='font-roboto font-bold text-xxxl max-lg:text-4xl text-green mb-9 max-lg:mb-7 max-md:mb-5 max-sm:mb-2 max-sm:text-3xl overflow-hidden border-r-4 border-black whitespace-nowrap animate-about'>aboutMe<span className='text-light'>( )</span></h2>
               <p className='font-roboto text-3xl text-light-gray leading-xl max-lg:text-2xl max-md:text-xl max-sm:text-base max-sm:leading-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer velit turpis, finibus eu condimentum ut, posuere at ipsum. Maecenas vel consequat mauris. Quisque sodales ipsum aliquet aliquam placerat. Proin varius condimentum sapien. Mauris quis elit nibh. Morbi ut facilisis nisl. Duis et leo ut odio rhoncus porta a a dui. Nullam arcu nibh, bibendum in enim sed, ullamcorper feugiat nunc. </p>
             </div>
           </div>
